@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homedecor">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="back"
+            android:background="@drawable/blue_button"
+            android:shadowColor="#E2B3B3B3"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BigMart"
+            android:textSize="40sp"
+            android:paddingLeft="60dp"
+            android:paddingRight="54dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="cart"
+            android:background="@drawable/blue_button"
+            android:shadowColor="#E2B3B3B3"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginLeft="0dp"
+            />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#fff" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

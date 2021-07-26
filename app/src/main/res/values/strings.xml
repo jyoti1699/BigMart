@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BigMart</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+</resources>

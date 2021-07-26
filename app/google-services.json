@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "295425889657",
+    "firebase_url": "https://bigmart-7b439-default-rtdb.firebaseio.com",
+    "project_id": "bigmart-7b439",
+    "storage_bucket": "bigmart-7b439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295425889657:android:9c773feb0eab4a2cc54ba8",
+        "android_client_info": {
+          "package_name": "com.example.bigmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295425889657-mtf4ej4dpmvln4nfnm9gl02rftmqgm89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC5R_sFcJ3vaVlH17Owb7ewIuFEe-tWuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295425889657-mtf4ej4dpmvln4nfnm9gl02rftmqgm89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

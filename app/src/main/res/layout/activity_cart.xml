@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tap_activity"
+    android:background="#fff"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="83dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/ic" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:text="Your cart is ready"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:id="@+id/crecycler"/>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="clear all"
+        android:layout_marginLeft="7dp"
+        android:textColor="#fff"
+        android:id="@+id/removeall"
+        android:background="@drawable/blue_button"
+        ></Button>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/go_back"
+        android:text="go back"
+        android:layout_marginLeft="7dp"
+        android:textColor="#fff"
+        android:background="@drawable/blue_button"
+        ></Button>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
